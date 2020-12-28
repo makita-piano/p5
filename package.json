@@ -1,14 +1,16 @@
 {
-  "name": "kengo",
+  "name": "fom",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --hostname 118.27.39.173 --port 3434",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6"
   },
