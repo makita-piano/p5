@@ -59,4 +59,11 @@ ul{
   color: #fff;
   background-color: #35495e;
 }
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
 </style>
