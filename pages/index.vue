@@ -17,52 +17,60 @@
     </div>
     <div class="grid col-12">
       <h2 class="col-12">Works</h2>
-      <div class="grid col-12">
-        <div class="grid col-4_sm-12" style="margin-bottom: 2rem;" @click="openModal">
-          <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-<span style="padding-left: 1rem">鴨田音楽教室様</span>
-        </div>
-        <div class="grid col-4_sm-12" style="margin-bottom: 2rem;" @click="openModal">
-          <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-<span style="padding-left: 1rem">あああ様</span>
-        </div>
-        <div class="grid col-4_sm-12" style="margin-bottom: 2rem;" @click="openModal">
-          <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-<span style="padding-left: 1rem">あああ様</span>
-        </div>
-        <div class="grid col-4_sm-12" style="margin-bottom: 2rem;" @click="openModal">
-          <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-<span style="padding-left: 1rem">あああ様</span>
-        </div>
-      </div>
+      <fade-in>
+        <section>
+          <div class="grid col-12">
+            <div class="grid col-4_sm-12" style="margin-bottom: 2rem;" @click="openModal">
+              <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
+    <span style="padding-left: 1rem">鴨田音楽教室様</span>
+            </div>
+            <div class="grid col-4_sm-12" style="margin-bottom: 2rem;" @click="openModal">
+              <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
+    <span style="padding-left: 1rem">あああ様</span>
+            </div>
+            <div class="grid col-4_sm-12" style="margin-bottom: 2rem;" @click="openModal">
+              <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
+    <span style="padding-left: 1rem">あああ様</span>
+            </div>
+            <div class="grid col-4_sm-12" style="margin-bottom: 2rem;" @click="openModal">
+              <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
+    <span style="padding-left: 1rem">あああ様</span>
+            </div>
+          </div>
+        </section>
+      </fade-in>
     </div>
     <div class="grid col-12">
       <h2 class="col-12">Works Flow</h2>
-      <div class="col-12">
-				<ul class="ul-flow">
-					<li class="li-flow">
-						<div class="div-flow">
-							<span class="span-flow">STEP</span>
-							<em class="em-flow">01</em>
-						</div>
-						<p class="">お客さまのご要望・お悩みをヒアリングし、コンセプト・構成を考えお見積書を発行します。</p>
-					</li>
-					<li class="li-flow">
-						<div class="div-flow">
-							<span class="span-flow">STEP</span>
-							<em class="em-flow">02</em>
-						</div>
-						<p class="">収録規模により、アシスタントとともに収録に参ります。</p>
-					</li>
-					<li class="li-flow">
-						<div class="div-flow">
-							<span class="span-flow">STEP</span>
-							<em class="em-flow">03</em>
-						</div>
-						<p class="">収録したものをより良いものへとブラッシュアップを行い、動画制作いたします。もちろん納品後の修正も承ります。</p>
-					</li>
-				</ul>
-			</div>
+      <fade-in>
+        <section>
+          <div class="col-12">
+    				<ul class="ul-flow">
+    					<li class="li-flow">
+    						<div class="div-flow">
+    							<span class="span-flow">STEP</span>
+    							<em class="em-flow">01</em>
+    						</div>
+    						<p class="">お客さまのご要望・お悩みをヒアリングし、コンセプト・構成を考えお見積書を発行します。</p>
+    					</li>
+    					<li class="li-flow">
+    						<div class="div-flow">
+    							<span class="span-flow">STEP</span>
+    							<em class="em-flow">02</em>
+    						</div>
+    						<p class="">収録規模により、アシスタントとともに収録に参ります。</p>
+    					</li>
+    					<li class="li-flow">
+    						<div class="div-flow">
+    							<span class="span-flow">STEP</span>
+    							<em class="em-flow">03</em>
+    						</div>
+    						<p class="">収録したものをより良いものへとブラッシュアップを行い、動画制作いたします。もちろん納品後の修正も承ります。</p>
+    					</li>
+    				</ul>
+    			</div>
+        </section>
+      </fade-in>
     </div>
     <div class="grid col-12">
       <h2 class="col-12">Price</h2>
@@ -72,22 +80,31 @@
     </div>
     <div class="grid-center col-12">
       <h2 class="col-12">Profile</h2>
-      <div class="grid-center col-12" style="max-width: 768px">
-        <div class="grid col-12">
-          <div class="grid col-12" style="margin: auto;text-align: center">
-            <div class="col-12">
-              <img src="~assets/iwamoto.png" width="100%" style="width:8rem;border-radius: 50%;height: 8rem" alt="iwamoto">
+      <fade-in>
+        <section>
+          <div class="grid-center col-12" style="max-width: 768px">
+            <div class="grid col-12">
+              <div class="grid col-12" style="margin: auto;text-align: center">
+                <div class="col-12">
+                  <img src="~assets/iwamoto.png" width="100%" style="width:8rem;border-radius: 50%;height: 8rem" alt="iwamoto">
+                </div>
+                <div class="col-12">岩本　健吾</div>
+              </div>
             </div>
-            <div class="col-12">岩本　健吾</div>
+            <div style="margin-bottom: 1rem">
+              <a href="https://www.facebook.com/kengo.iwamoto.71" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" class="svg replaced-svg"><g transform="translate(0 0)"><path d="M-2505-5135a13.906,13.906,0,0,1-9.9-4.1,13.908,13.908,0,0,1-4.1-9.9,13.91,13.91,0,0,1,4.1-9.9,13.907,13.907,0,0,1,9.9-4.1,13.909,13.909,0,0,1,9.9,4.1,13.908,13.908,0,0,1,4.1,9.9,13.906,13.906,0,0,1-4.1,9.9A13.908,13.908,0,0,1-2505-5135Zm-2.073-14.026v8.433h3.178v-8.433h2.6l.5-3.146h-3.106v-.969a1.037,1.037,0,0,1,1-1.115h2.174v-3.212h-2.557v.012a3.859,3.859,0,0,0-3.034,1.195,3.961,3.961,0,0,0-.754,2.485h-.006v1.6h-2.109v3.146Z" transform="translate(2519 5163)" fill="#444"></path></g></svg>
+              </a>
+            </div>
+            <div class="grid col-12" style="padding: 0 2rem">
+      東京音楽大学大学院 ピアノ伴奏。恥の多い生涯を送って来ました。
+      　自分には、人間の生活というものが、見当つかないのです。自分は東北の田舎に生れましたので、汽車をはじめて見たのは、よほど大きくなってからでした。自分は停車場のブリッジを、上って、降りて、そうしてそれが線路をまたぎ越えるために造られたものだという事には全然気づかず、ただそれは停車場の構内を外国の遊戯場みたいに、複雑に楽しく、ハイカラにするためにのみ、設備せられてあるものだとばかり思っていました。しかも、かなり永い間そう思っていたのです。ブリッジの上ったり降りたりは、自分にはむしろ、ずいぶん垢抜《あかぬ》けのした遊戯で、それは鉄道のサーヴィスの中でも、最も気のきいたサーヴィスの一つだと思っていたのですが、のちにそれはただ旅客が線路をまたぎ越えるための頗る実利的な階段に過ぎないのを発見して、にわかに興が覚めました。
+      　また、自分は子供の頃、絵本で地下鉄道というものを見て、これもやはり、実利的な必要から案出せられたものではなく、地上の車に乗るよりは、地下の車に乗ったほうが風がわりで面白い遊びだから、とばかり思っていました。
+      　自分は子供の頃から病弱で、よく寝込みましたが、寝ながら、敷布、枕のカヴァ、掛蒲団のカヴァを、つくづく、つまらない装飾だと思い、それが案外に実用品だった事を、二十歳ちかくになってわかって、人間のつましさに暗然とし、悲しい思いをしました。
+            </div>
           </div>
-        </div>
-        <div class="grid col-12" style="padding: 0 2rem">
-  東京音楽大学大学院 ピアノ伴奏。恥の多い生涯を送って来ました。
-  　自分には、人間の生活というものが、見当つかないのです。自分は東北の田舎に生れましたので、汽車をはじめて見たのは、よほど大きくなってからでした。自分は停車場のブリッジを、上って、降りて、そうしてそれが線路をまたぎ越えるために造られたものだという事には全然気づかず、ただそれは停車場の構内を外国の遊戯場みたいに、複雑に楽しく、ハイカラにするためにのみ、設備せられてあるものだとばかり思っていました。しかも、かなり永い間そう思っていたのです。ブリッジの上ったり降りたりは、自分にはむしろ、ずいぶん垢抜《あかぬ》けのした遊戯で、それは鉄道のサーヴィスの中でも、最も気のきいたサーヴィスの一つだと思っていたのですが、のちにそれはただ旅客が線路をまたぎ越えるための頗る実利的な階段に過ぎないのを発見して、にわかに興が覚めました。
-  　また、自分は子供の頃、絵本で地下鉄道というものを見て、これもやはり、実利的な必要から案出せられたものではなく、地上の車に乗るよりは、地下の車に乗ったほうが風がわりで面白い遊びだから、とばかり思っていました。
-  　自分は子供の頃から病弱で、よく寝込みましたが、寝ながら、敷布、枕のカヴァ、掛蒲団のカヴァを、つくづく、つまらない装飾だと思い、それが案外に実用品だった事を、二十歳ちかくになってわかって、人間のつましさに暗然とし、悲しい思いをしました。
-        </div>
-      </div>
+        </section>
+      </fade-in>
     </div>
     <div class="grid-center col-12" style="margin-bottom: 3rem">
       <h2 class="col-12">Contact Me</h2>
@@ -114,21 +131,25 @@ DVD30枚製作。<br>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      modal: false,
-    }
-  },
-  methods: {
-    openModal() {
-      this.modal = true
+  import FadeIn from '../components/FadeIn'
+  export default {
+    data() {
+      return {
+        modal: false,
+      }
     },
-    closeModal() {
-      this.modal = false
+    methods: {
+      openModal() {
+        this.modal = true
+      },
+      closeModal() {
+        this.modal = false
+      }
+    },
+    components: {
+      FadeIn
     }
   }
-}
 </script>
 
 <style>
