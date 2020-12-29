@@ -100,7 +100,7 @@
         <div class="modal-window">
           <div class="modal-header" style="position: relative">
             鴨田音楽教室様
-            <button @click="closeModal" style="position: absolute;right: 1rem">×</button>
+            <button @click="closeModal" style="position: absolute;right: 1rem;top: .8rem;height: 1.5rem;width: 1.5rem">×</button>
           </div>
           <div class="modal-content">
             カメラ２台、マイク２つ使用。<br>
@@ -191,6 +191,7 @@ img {
   margin: 0 auto 5px;
   font-weight: 800;
   font-size: 3rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 768px) {
