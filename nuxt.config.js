@@ -1,22 +1,26 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'fom-create',
+    title: 'openframework',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'FoMクリエイトは東京・埼玉を拠点に、演奏動画の収録・制作を行っています。ピアノ・クラシックのほか、お教室の発表会やプロモーション動画など広範囲に制作いたします。' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'FoMクリエイト' },
+      { hid: 'description', name: 'description', content: 'openframework' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'openframework' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:title', property: 'og:title', content: 'FoMクリエイト' },
-      { hid: 'og:description', property: 'og:description', content: 'FoMクリエイトは東京・埼玉を拠点に、演奏動画の収録・制作を行っています。ピアノ・クラシックのほか、お教室の発表会やプロモーション動画など広範囲に制作いたします。' },
-      { hid: 'og:image', property: 'og:image', content: 'https://fom-create.com/fom.png' }
+      { hid: 'og:title', property: 'og:title', content: 'openframework' },
+      { hid: 'og:description', property: 'og:description', content: 'openframework' },
+      { hid: 'og:image', property: 'og:image', content: '' }
     ],
     link: [
       {
         rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css"
       },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: 'https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js'},
+      { src: 'sketch.js'}
     ]
   },
 

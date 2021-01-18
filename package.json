@@ -1,9 +1,9 @@
 {
-  "name": "fom",
+  "name": "openframework",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt --hostname 118.27.39.173 --port 3434",
+    "dev": "nuxt --hostname 118.27.39.173 --port 1111",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
@@ -12,7 +12,8 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "three": "^0.124.0"
   },
   "devDependencies": {}
 }
