@@ -8,25 +8,29 @@ draw=_=>{
    if(y<w){
      for(x=w;x--;){
        stroke(l=f((x-h)/q,(y-h)/q))
-       line(x,y,x,y+l+50)
+       line(x,y+1,x,y+l)
        if(check(x,y)){
-         if(l>0){
+         ll=f((x-h)/q,(y+1-h)/q)
+         if(l < 255 && ll >= 200 || l >= 200 && ll < 255){
            stroke(255-l)
          }else{
-           stroke(0)
+           stroke(50-l)
          }
        }else{
-         stroke(255)
+         if(l<200){
+           stroke(l+200)
+         }else{
+           stroke(255)
+         }
        }
-       line(x,y,x,y+1)
+       point(x,y)
      }
    }
    y++
-   
  }
 f=(x,y,n=4)=>
   n?
-    f(cos(3*x)-sin(4*y),x*x-y*y-2*x*y,n-1)
+    f(cos(2*x)-sin(3*y),x*x-y*y-2*x*y,n-1)
     :(x-y)**2*24
 
 /*
@@ -60,7 +64,7 @@ check=(x,y)=>{
   dot = 20;
   y-=100
   xx=int(x/dot)
-  if(x%dot==0 || x%dot==19 || y%dot==0 || y%dot==19){
+  if(x%dot==0 || x%dot==39 || y%dot==0 || y%dot==39){
     judge = false;
   }
   else if(y > 0 && int(y/dot)==0){

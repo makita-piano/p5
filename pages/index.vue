@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <rotate-box></rotate-box>
   </div>
 </template>
 
